@@ -1,0 +1,30 @@
+@import "../../../scss/_variables.scss";
+
+.theme-input {
+  display: block;
+  width: auto;
+  position: relative;
+  margin-bottom: 1.2rem;
+  margin-top: 0.5rem;
+}
+.theme-input textarea {
+  display: block;
+  text-align: left;
+  height: 4rem;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+  border: none;
+  font-family: $red-hat-fonts;
+  padding-left: 1rem;
+  padding-right: 1rem;
+  width: calc(100% - 2rem);
+  border-radius: 5px;
+  font-size: 16px;
+  color: #333;
+  background-color: rgba($color: #000000, $alpha: 0.05);
+  transition: border-color 0.3s ease;
+}
+.theme-input textarea:focus-visible {
+  border-color: none;
+  outline: none;
+}

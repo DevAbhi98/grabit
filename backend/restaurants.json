@@ -1,0 +1,201 @@
+[
+  {
+    "address": "456 Oak Avenue, Townsville",
+    "cooking_time": "25 min",
+    "distance": "2.3 mi",
+    "food_type": ["Italian", "Mexican"],
+    "id": 0,
+    "image": "https://lh3.googleusercontent.com/p/AF1QipMi-Wp3_vCGEpJrUP2-g1dL3aXLJBfuDvBWLyA=s680-w680-h510",
+    "images": [
+      "https://lh3.googleusercontent.com/p/AF1QipOuYlW2b47Y1sSVZRQoz-OMJ9mOb-9RWQbT1cY=s680-w680-h510",
+      "https://lh3.googleusercontent.com/p/AF1QipObC10pDp3ES_RTTpVa47wMTnkIeOVmy-ov_Eo=s680-w680-h510",
+      "https://lh3.googleusercontent.com/p/AF1QipOLOhdO3Dzs0LhYn48AVq6P8bZn-4Q8tKHA4oWm=s680-w680-h510",
+      "https://lh3.googleusercontent.com/p/AF1QipMkiiL9s8vCr4Yzd8FJFB9EpTCWOd9hcd4FGyxx=s680-w680-h510",
+      "https://lh3.googleusercontent.com/p/AF1QipPzuROwlYNj5KcVWOjImYAxqrbsE6y2B3BDHfFS=s680-w680-h510",
+      "https://lh3.googleusercontent.com/p/AF1QipPhUcOc2X7Yl1fDKFvaxgX8-q40tVl2rhmDJeE=s680-w680-h510"
+    ],
+    "name": "Tasty Grill",
+    "rating": 4.5,
+    "reviews": 120,
+    "status": "open"
+  },
+  {
+    "address": "789 Maple Street, Flavor City",
+    "cooking_time": "20 min",
+    "distance": "1.8 mi",
+    "food_type": ["Japanese", "Chinese", "Thai"],
+    "id": 1,
+    "image": "https://images.unsplash.com/photo-1550966871-3ed3cdb5ed0c?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+    "images": [
+      "https://lh3.googleusercontent.com/p/AF1QipNXarsKRPrGINpu0oy8VkmT6gngdhgm0wSNxcbP=s680-w680-h510",
+      "https://lh3.googleusercontent.com/p/AF1QipMwwQvCqCWIIA0KbfrJ6y3t2b5AUtQ0mo9Q4gWU=s680-w680-h510",
+      "https://lh3.googleusercontent.com/p/AF1QipOGaqwGOhpyaqsm9E_jsO-0IzfWgPMXxIvx-ogO=s680-w680-h510",
+      "https://lh3.googleusercontent.com/p/AF1QipOByHKIDtPbSfYXcC16pNSZGafj3RSysdLNv3rk=s680-w680-h510",
+      "https://lh3.googleusercontent.com/p/AF1QipMSWYUFHCmSZmCJVtLz7POcgNbjjeszPv-AJoet=s680-w680-h510",
+      "https://lh3.googleusercontent.com/p/AF1QipNvDI4WQ8ZmT0XqP7FrcwGmssBdzvX_Yu3XQfOn=s680-w680-h510"
+    ],
+    "name": "Spice Haven",
+    "rating": 3.5,
+    "reviews": 200,
+    "status": "open"
+  },
+  {
+    "address": "101 Pine Lane, Culinary Heights",
+    "cooking_time": "35 min",
+    "distance": "3.5 mi",
+    "food_type": ["Indian", "Mexican", "Italian", "Chinese", "Japanese"],
+    "id": 2,
+    "image": "https://images.unsplash.com/photo-1549488344-1f9b8d2bd1f3?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+    "images": [
+      "https://lh3.googleusercontent.com/p/AF1QipPO0_bo1LFGByLf_dshDm4JQlFTtNcMHVaC_fKT=s680-w680-h510",
+      "https://lh3.googleusercontent.com/p/AF1QipNptpfsFFFYGh9lEPxkkcS7UBImUZfLEcDq-duw=s680-w680-h510",
+      "https://lh3.googleusercontent.com/p/AF1QipMkfgdJFs5ZgYa4arKc0CU2n-ZlX6CgBObbrPyR=s680-w680-h510",
+      "https://lh3.googleusercontent.com/p/AF1QipNWqiOgjcr_VoELV7SQPFiKbTB4h69OdtodjWza=s680-w680-h510",
+      "https://lh3.googleusercontent.com/p/AF1QipPGQuvFuUZjIfT4N0vjQ8LQyLyJ-O-s69kwLdWF=s680-w680-h510",
+      "https://lh3.googleusercontent.com/p/AF1QipOns5VAzv7R92Jicx6ilsxn6kcGUqjJwkEgaJ2g=s680-w680-h510"
+    ],
+    "name": "Crispy Delight",
+    "rating": 3.4,
+    "reviews": 220,
+    "status": "close"
+  },
+  {
+    "address": "234 Elm Road, Metropolis Junction",
+    "cooking_time": "30 min",
+    "distance": "2.0 mi",
+    "food_type": ["Thai", "Chinese", "Japanese"],
+    "id": 3,
+    "image": "https://media.istockphoto.com/id/1399485385/photo/restaurant-interior-part-of-hotel.jpg?s=2048x2048&w=is&k=20&c=e9xZ1K-FkIdcGTBHfMggjdN0E0P536not75PRvaMMao=",
+    "images": [
+      "https://lh3.googleusercontent.com/p/AF1QipMhjMJOMO8tNfOzYXI-uQQZ7lITc6XKEQGCvH6p=s680-w680-h510",
+      "https://lh3.googleusercontent.com/p/AF1QipOMbqA5Adp78me9FeOoBGhZuLyzmfIwceHIylmP=s680-w680-h510",
+      "https://lh3.googleusercontent.com/p/AF1QipNdRywSybYMAd_MmtYp0UpmsB0F0tpC7T90f2bl=s680-w680-h510",
+      "https://lh3.googleusercontent.com/p/AF1QipOY0LfFvDQ-0N5cTYl3mIFLsuTN4YcjGcR6Mexu=s680-w680-h510",
+      "https://lh3.googleusercontent.com/p/AF1QipMk257IWnjnYPV_lBBzdJkRJQdNth7wUXV5MrY=s680-w680-h510",
+      "https://lh3.googleusercontent.com/p/AF1QipOBhhhmIvj6KkVwoDYE_ygz54jT76DFKhohTNdg=s680-w680-h510"
+    ],
+    "name": "Urban Taste Hub",
+    "rating": 2.8,
+    "reviews": 100,
+    "status": "open"
+  },
+  {
+    "address": "567 Birch Boulevard, Epicurean Plaza",
+    "cooking_time": "15 min",
+    "distance": "1.5 mi",
+    "food_type": ["American", "Mexican", "Italian", "Chinese", "Japanese"],
+    "id": 4,
+    "image": "https://assets.gqindia.com/photos/62a9d4653e8cdc9b632eb2ad/16:9/w_1920,c_limit/10%20restaurants%20in%20Mumbai%20that%20offer%20the%20best%20sunset%20views.jpg",
+    "images": [
+      "https://lh3.googleusercontent.com/p/AF1QipOf9vr0CdN9-oEvgotup_CZqrfVxIiavt5rXdcy=s680-w680-h510",
+      "https://lh3.googleusercontent.com/p/AF1QipPDraGfU0llVzh8QtBJ_HOqEanxFzRLCLCFm5Qx=s680-w680-h510",
+      "https://lh3.googleusercontent.com/p/AF1QipO7eVUufUFTZPuSYtAakncGnD-zm7wg_JDgkzjY=s680-w680-h510",
+      "https://lh3.googleusercontent.com/p/AF1QipNp4wrQzZQtA6yG20-L_f1BGnLPO6BZbuO9dWzf=s680-w680-h510",
+      "https://lh3.googleusercontent.com/p/AF1QipPZQniGshgr4T5F_xT9cLrjsAN36RNHZlB7uAIg=s680-w680-h510"
+    ],
+    "name": "Gourmet Central",
+    "rating": 4.5,
+    "reviews": 150,
+    "status": "open"
+  },
+  {
+    "address": "890 Cedar Street, Gastronomy Village",
+    "cooking_time": "28 min",
+    "distance": "2.8 mi",
+    "food_type": ["American", "Mexican", "Italian", "Chinese", "Japanese"],
+    "id": 5,
+    "image": "https://assets.gqindia.com/photos/62a9d342aee341d180136ca0/master/w_1600,c_limit/Asilo%202.jpg",
+    "images": [
+      "https://lh3.googleusercontent.com/p/AF1QipOcNDJ-2w3gMBaMjlMBBnOFvrp51tBkIJqzjSwC=s680-w680-h510",
+      "https://lh3.googleusercontent.com/p/AF1QipPZtcNsFtBsoT3QRZG9PnqQprgJj0yf9F0gkAVZ=s680-w680-h510",
+      "https://lh3.googleusercontent.com/p/AF1QipM46F91iWJP9emjzHHQbSwc3VVpOAU6rIhg-tef=s680-w680-h510",
+      "https://lh3.googleusercontent.com/p/AF1QipP-M5JJl1hLImzIv6cLgIGyJAt2S7OHiJwoD_8q=s680-w680-h510",
+      "https://lh3.googleusercontent.com/p/AF1QipOcNDJ-2w3gMBaMjlMBBnOFvrp51tBkIJqzjSwC=s680-w680-h510",
+      "https://lh3.googleusercontent.com/p/AF1QipOgbvV1ThKE-nT2ZhLpT48KrBUsf5JsITgf3vxe=s680-w680-h510"
+    ],
+    "name": "Flavorsome Oasis",
+    "rating": 4.2,
+    "reviews": 118,
+    "status": "open"
+  },
+  {
+    "address": "321 Walnut Avenue, Culinary Corner",
+    "cooking_time": "40 min",
+    "distance": "3.2 mi",
+    "food_type": ["American", "Mexican", "Italian", "Chinese", "Japanese"],
+    "id": 6,
+    "image": "https://assets.architecturaldigest.in/photos/63733d33a2dd6ea6560eb6d2/master/w_1600,c_limit/LAH-09607.jpg",
+    "images": [
+      "https://lh3.googleusercontent.com/p/AF1QipOuYlW2b47Y1sSVZRQoz-OMJ9mOb-9RWQbT1cY=s680-w680-h510",
+      "https://lh3.googleusercontent.com/p/AF1QipObC10pDp3ES_RTTpVa47wMTnkIeOVmy-ov_Eo=s680-w680-h510",
+      "https://lh3.googleusercontent.com/p/AF1QipOLOhdO3Dzs0LhYn48AVq6P8bZn-4Q8tKHA4oWm=s680-w680-h510",
+      "https://lh3.googleusercontent.com/p/AF1QipMkiiL9s8vCr4Yzd8FJFB9EpTCWOd9hcd4FGyxx=s680-w680-h510",
+      "https://lh3.googleusercontent.com/p/AF1QipPzuROwlYNj5KcVWOjImYAxqrbsE6y2B3BDHfFS=s680-w680-h510",
+      "https://lh3.googleusercontent.com/p/AF1QipPhUcOc2X7Yl1fDKFvaxgX8-q40tVl2rhmDJeE=s680-w680-h510"
+    ],
+    "name": "Sizzle Junction",
+    "rating": 4.8,
+    "reviews": 192,
+    "status": "close"
+  },
+  {
+    "address": "654 Pinecrest Drive, Flavorful Heights",
+    "cooking_time": "22 min",
+    "distance": "2.2 mi",
+    "food_type": ["American", "Mexican"],
+    "id": 7,
+    "image": "https://assets.architecturaldigest.in/photos/63733d689e394473b1992f48/master/w_1600,c_limit/La%20Loca%20Maria%20Dining%20Area%204.jpg",
+    "images": [
+      "https://lh3.googleusercontent.com/p/AF1QipNXarsKRPrGINpu0oy8VkmT6gngdhgm0wSNxcbP=s680-w680-h510",
+      "https://lh3.googleusercontent.com/p/AF1QipMwwQvCqCWIIA0KbfrJ6y3t2b5AUtQ0mo9Q4gWU=s680-w680-h510",
+      "https://lh3.googleusercontent.com/p/AF1QipOGaqwGOhpyaqsm9E_jsO-0IzfWgPMXxIvx-ogO=s680-w680-h510",
+      "https://lh3.googleusercontent.com/p/AF1QipOByHKIDtPbSfYXcC16pNSZGafj3RSysdLNv3rk=s680-w680-h510",
+      "https://lh3.googleusercontent.com/p/AF1QipMSWYUFHCmSZmCJVtLz7POcgNbjjeszPv-AJoet=s680-w680-h510",
+      "https://lh3.googleusercontent.com/p/AF1QipNvDI4WQ8ZmT0XqP7FrcwGmssBdzvX_Yu3XQfOn=s680-w680-h510"
+    ],
+    "name": "Zestful Diner",
+    "rating": 4.3,
+    "reviews": 186,
+    "status": "open"
+  },
+  {
+    "address": "432 Chestnut Lane, Savory Square",
+    "cooking_time": "18 min",
+    "distance": "1.3 mi",
+    "food_type": ["Indian", "Mexican", "Italian", "Chinese", "Japanese"],
+    "id": 8,
+    "image": "https://assets.architecturaldigest.in/photos/63733d95a2dd6ea6560eb6d6/master/w_1600,c_limit/Ditas%20Interior%20Image%20-%201%20(12).jpg",
+    "images": [
+      "https://lh3.googleusercontent.com/p/AF1QipPO0_bo1LFGByLf_dshDm4JQlFTtNcMHVaC_fKT=s680-w680-h510",
+      "https://lh3.googleusercontent.com/p/AF1QipNptpfsFFFYGh9lEPxkkcS7UBImUZfLEcDq-duw=s680-w680-h510",
+      "https://lh3.googleusercontent.com/p/AF1QipMkfgdJFs5ZgYa4arKc0CU2n-ZlX6CgBObbrPyR=s680-w680-h510",
+      "https://lh3.googleusercontent.com/p/AF1QipNWqiOgjcr_VoELV7SQPFiKbTB4h69OdtodjWza=s680-w680-h510",
+      "https://lh3.googleusercontent.com/p/AF1QipPGQuvFuUZjIfT4N0vjQ8LQyLyJ-O-s69kwLdWF=s680-w680-h510",
+      "https://lh3.googleusercontent.com/p/AF1QipOns5VAzv7R92Jicx6ilsxn6kcGUqjJwkEgaJ2g=s680-w680-h510"
+    ],
+    "name": "Mouthwatering Palace",
+    "rating": 3.9,
+    "reviews": 192,
+    "status": "open"
+  },
+  {
+    "address": "987 Oak Street, Epicure Avenue",
+    "cooking_time": "45 min",
+    "distance": "4.0 mi",
+    "food_type": ["Indian", "Mexican", "Italian", "Chinese", "Japanese"],
+    "id": 9,
+    "image": "https://assets.architecturaldigest.in/photos/63733e4495e49f096e4b3cb7/master/w_1600,c_limit/All%20Saints%209.jpg",
+    "images": [
+      "https://lh3.googleusercontent.com/p/AF1QipMhjMJOMO8tNfOzYXI-uQQZ7lITc6XKEQGCvH6p=s680-w680-h510",
+      "https://lh3.googleusercontent.com/p/AF1QipOMbqA5Adp78me9FeOoBGhZuLyzmfIwceHIylmP=s680-w680-h510",
+      "https://lh3.googleusercontent.com/p/AF1QipNdRywSybYMAd_MmtYp0UpmsB0F0tpC7T90f2bl=s680-w680-h510",
+      "https://lh3.googleusercontent.com/p/AF1QipOY0LfFvDQ-0N5cTYl3mIFLsuTN4YcjGcR6Mexu=s680-w680-h510",
+      "https://lh3.googleusercontent.com/p/AF1QipMk257IWnjnYPV_lBBzdJkRJQdNth7wUXV5MrY=s680-w680-h510",
+      "https://lh3.googleusercontent.com/p/AF1QipOBhhhmIvj6KkVwoDYE_ygz54jT76DFKhohTNdg=s680-w680-h510"
+    ],
+    "name": "Culinary Delights",
+    "rating": 4,
+    "reviews": 137,
+    "status": "close"
+  }
+]

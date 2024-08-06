@@ -1,0 +1,385 @@
+@import "../../../scss/variables";
+
+.menu-list {
+  list-style: none;
+  margin-bottom: auto;
+  margin-top: 0;
+  padding: 0;
+
+  li {
+    padding: 0;
+    margin: 0;
+    width: 100%;
+
+    .active-home-link {
+      text-decoration: none;
+      div {
+        width: 100%;
+        display: flex;
+        background: $accent-color;
+        flex-direction: row;
+
+        img {
+          width: 1.3rem;
+          margin-left: 0.5rem;
+        }
+
+        p {
+          color: white;
+          margin-left: 0.5rem;
+          background: transparent;
+          border: none;
+          font-size: 1.1rem;
+          font-family: "Cabin", sans-serif;
+        }
+      }
+
+      &:hover {
+        div {
+          width: 100%;
+          display: flex;
+          background: $accent-color;
+          flex-direction: row;
+
+          p {
+            color: white;
+            margin-left: 0.5rem;
+            background: transparent;
+            border: none;
+            font-size: 1.1rem;
+            font-family: "Cabin", sans-serif;
+          }
+        }
+      }
+    }
+
+    .home-link {
+      text-decoration: none;
+      cursor: pointer;
+
+      div {
+        width: 100%;
+        display: flex;
+        flex-direction: row;
+        padding: 0;
+        transition: all 0.4s ease;
+
+        img {
+          width: 1.3rem;
+          margin-left: 0.5rem;
+          transition: all 0.4s ease;
+        }
+
+        p {
+          color: black;
+          margin-left: 0.5rem;
+          background: transparent;
+          border: none;
+          font-size: 1.1rem;
+          font-family: "Red Hat Display", sans-serif;
+          transition: all 0.4s ease;
+        }
+      }
+
+      &:hover {
+        div {
+          width: 100%;
+          display: flex;
+          background: $accent-color;
+          flex-direction: row;
+
+          p {
+            color: white;
+            margin-left: 0.5rem;
+            background: transparent;
+            border: none;
+            font-size: 1.1rem;
+            font-family: "Red Hat Display", sans-serif;
+          }
+        }
+      }
+    }
+  }
+}
+
+.authentication-menu {
+  right: 0;
+  width: 40%;
+  height: 0;
+  top: 4rem;
+  padding-left: 0.5rem;
+  position: fixed;
+  background: $background-color;
+  height: fit-content;
+  z-index: 140;
+  transform: translateY(-200%);
+  transition: transform 0.3s ease;
+
+  ul {
+    height: 0;
+    visibility: hidden;
+  }
+}
+
+@media (max-width: 768px) {
+  .authentication-menu {
+    height: fit-content;
+
+    button {
+      display: none;
+    }
+
+    ul {
+      height: fit-content;
+      visibility: visible;
+    }
+  }
+}
+
+.main-side-nav {
+  position: fixed;
+  width: 20%;
+  height: 100%;
+  top: 4rem;
+  z-index: 1600;
+  background: $background-color;
+  overflow: hidden;
+  transition: all 0.4 s ease;
+  transform: translateX(-100%);
+}
+
+@media (max-width: 1100px) {
+  .main-side-nav {
+    width: 65%;
+  }
+}
+
+.dark-logo-div {
+  display: flex;
+  flex-direction: row;
+  margin-right: auto;
+  margin-left: auto;
+  cursor: pointer;
+
+  img {
+    align-self: center;
+    height: 2.5rem;
+    margin-bottom: 5%;
+    color: $accent-color;
+    fill: $accent-color;
+  }
+
+  h1 {
+    color: $accent-color;
+    font-family: "Salsa", sans-serif;
+    font-weight: 300;
+    margin-left: 0.35rem;
+  }
+}
+
+.error-nav {
+  background: $accent-color !important;
+}
+
+.error-page {
+  display: flex;
+  height: 100vh;
+
+  .error-page-content {
+    img {
+      height: 16rem;
+      width: 16rem;
+    }
+
+    margin: auto;
+    text-align: center;
+    color: $background-color;
+    font-family: "Red Hat Display", sans-serif;
+    margin-right: 20%;
+    margin-left: 20%;
+
+    h1 {
+      color: black;
+      font-size: 2.5rem;
+      font-family: $spartan-fonts;
+      font-weight: 600;
+      margin-bottom: 0;
+    }
+
+    p {
+      color: black;
+      font-family: $red-hat-fonts;
+      font-size: 1.2rem;
+      font-weight: 400;
+    }
+  }
+}
+
+.navbar {
+  width: 100%;
+  position: fixed;
+  height: 4rem;
+  padding-left: 1rem;
+  top: 0;
+  background: $background-color;
+  border-bottom: rgba($color: $accent-color, $alpha: 0.4) solid 1px;
+  z-index: 800;
+  display: flex;
+  flex-direction: row;
+  box-sizing: border-box;
+  align-items: center;
+  pointer-events: none;
+
+  .error-navbar-logo {
+    display: flex;
+    flex-direction: row;
+    margin-right: auto;
+    margin-left: auto;
+
+    img {
+      align-self: center;
+      height: 2.5rem;
+      margin-bottom: 5%;
+      color: $accent-color;
+      fill: $accent-color;
+    }
+
+    h1 {
+      color: $background-color;
+      font-family: "Salsa", sans-serif;
+      font-weight: 300;
+      margin-left: 0.35rem;
+    }
+  }
+
+  .hamburger {
+    align-self: center;
+    display: inline-block;
+    cursor: pointer;
+  }
+
+  .hamburger:hover {
+    cursor: pointer;
+  }
+
+  .line {
+    width: 2rem;
+    height: 3px;
+    border-radius: 10px;
+    background-color: $accent-color;
+    display: block;
+    margin: 6px auto;
+    transition: all 0.3s ease-in-out;
+  }
+
+  #hamburger-1.is-active .line:nth-child(2) {
+    opacity: 0;
+  }
+
+  #hamburger-1.is-active .line:nth-child(1) {
+    transform: translateY(9px) rotate(45deg);
+  }
+
+  #hamburger-1.is-active .line:nth-child(3) {
+    transform: translateY(-9px) rotate(-45deg);
+  }
+
+  .right-section {
+    position: absolute !important;
+    right: 2rem;
+    display: flex;
+    align-items: center;
+    position: relative;
+    flex-direction: row;
+    vertical-align: middle;
+
+    .right-section__cart-div {
+      position: relative;
+      align-self: center;
+      margin-top: 0.4rem;
+      margin-right: 2rem;
+      cursor: pointer;
+
+      .right-section__cart-div__cart-icon {
+        svg {
+          height: 1.8rem;
+          width: 1.8rem;
+          fill: $accent-color;
+        }
+      }
+
+      .right-section__cart-div__cart-items {
+        height: 1.2rem;
+        width: 1.2rem;
+        display: flex;
+        position: absolute;
+        top: 0;
+        right: 0;
+        align-items: center;
+        justify-content: center;
+        font-family: $red-hat-fonts;
+        font-weight: 700;
+        font-size: 0.7rem;
+        transform: translateX(0.3rem) translateY(-0.3rem);
+        color: white;
+        background: $accent-color;
+        border-radius: 100px;
+        margin: 0;
+        padding: 0;
+      }
+    }
+
+    .logout {
+      margin-top: 0.4rem;
+      cursor: pointer;
+      svg {
+        height: 1.8rem;
+        width: 1.8rem;
+        fill: $accent-color;
+      }
+    }
+
+    @media (max-width: 768px) {
+      .logout {
+        display: none;
+      }
+    }
+
+    button {
+      width: 100px;
+      margin-right: 10px;
+    }
+  }
+
+  .authentication-section-icons {
+    background: none;
+    border: none;
+    visibility: hidden;
+    cursor: pointer;
+    margin-right: 1rem;
+    div {
+      svg {
+        width: 2rem;
+        height: 2rem;
+        fill: $accent-color;
+      }
+    }
+  }
+
+  @media (max-width: 768px) {
+    .right-section {
+      right: 3rem;
+      button {
+        display: none;
+      }
+    }
+
+    .authentication-section {
+      visibility: hidden;
+    }
+
+    .authentication-section-icons {
+      visibility: visible;
+    }
+  }
+}

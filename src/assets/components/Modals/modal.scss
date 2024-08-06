@@ -1,0 +1,296 @@
+@import "../../../scss/variables";
+
+.modal::backdrop {
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 1;
+  width: 100%;
+  height: 100vh;
+  background: rgba(0, 0, 0, 0.6);
+}
+
+.modal {
+  max-width: 100%;
+  max-height: 100%;
+  padding: 0;
+  z-index: 2;
+  background: transparent;
+  border-radius: 8px;
+  border: none;
+  animation: slide-down-fade-in 0.3s ease-out forwards;
+  overflow: visible;
+}
+
+.login-modal {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: 210;
+  max-height: 40rem;
+  max-width: 40rem;
+
+  box-sizing: border-box;
+  background: transparent;
+  border: none;
+
+  .login-details {
+    background: white;
+    align-self: center;
+    display: flex;
+    flex-direction: column;
+    padding: 1.5rem;
+    box-sizing: border-box;
+    border-radius: 1rem;
+
+    svg {
+      width: 1rem;
+      height: 1rem;
+      fill: rgba($color: #3c3c3c, $alpha: 1);
+    }
+
+    h2 {
+      font-family: $spartan-fonts;
+      font-weight: 600;
+      font-size: 1.5rem;
+    }
+    .signin-section {
+      align-self: center;
+      gap: 0.5rem;
+      display: flex;
+      flex-direction: row;
+      justify-items: center;
+
+      .company-signin {
+        cursor: pointer;
+        margin: 0;
+        background: transparent;
+        width: 2.5rem;
+        height: 2.5rem;
+        border: rgba($color: #000000, $alpha: 0.3) solid 1px;
+        border-radius: 50%;
+      }
+
+      img {
+        height: 1.2rem;
+        width: 1.2rem;
+      }
+    }
+    .signup-section {
+      display: flex;
+      flex-direction: row;
+      width: fit-content;
+      align-self: center;
+      height: 4rem;
+      align-items: end;
+      gap: 0.3rem; /* Adjust as needed */
+
+      .dont-have-account {
+        font-family: $red-hat-fonts;
+        font-size: 0.9rem;
+        padding: 0;
+        margin: 0;
+      }
+
+      .signup {
+        font-family: $red-hat-fonts;
+        font-weight: 500;
+        height: fit-content;
+        font-size: 0.9rem;
+        padding: 0;
+        margin: 0;
+        cursor: pointer;
+        transition: color 0.2s ease;
+
+        &:hover {
+          color: $accent-color;
+          border-bottom: solid 2px $accent-color;
+          transition: color 0.2s ease;
+        }
+      }
+    }
+  }
+
+  .continue-email {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-items: center;
+
+    div {
+      align-self: center;
+      background: rgba($color: #000000, $alpha: 0.2);
+      height: 1px;
+      width: 34%;
+    }
+    p {
+      padding: 1rem;
+      text-align: center;
+      font-family: $red-hat-fonts;
+      align-self: center;
+      color: #3c3c3c;
+      font-size: 0.9rem;
+      margin: 0;
+    }
+  }
+}
+
+.m-t-1 {
+  margin-top: 1rem;
+}
+
+.login-form {
+  h4 {
+    font-family: $red-hat-fonts;
+    font-size: 1rem;
+    font-weight: 500;
+    margin: 0;
+    margin-bottom: 0.4rem;
+    margin-top: 1rem;
+  }
+
+  .login-form-error {
+    font-family: $red-hat-fonts;
+    font-size: 0.8rem;
+    color: red;
+    margin: 0;
+    margin-bottom: 0.4rem;
+    margin-top: 0.3rem;
+  }
+
+  .input-field {
+    padding-left: 0.5rem;
+    padding-right: 0.5rem;
+    padding-top: 0.7rem;
+    padding-bottom: 0.7rem;
+    border: rgba($color: #707070, $alpha: 0.4) solid 1px;
+    border-radius: 0.3rem;
+  }
+
+  input {
+    background: transparent;
+    border: none;
+    display: block;
+    width: 100%;
+
+    &:focus {
+      outline: none;
+    }
+
+    &::placeholder {
+      font-family: $red-hat-fonts;
+      font-size: 1rem;
+    }
+  }
+}
+
+.close-cross {
+  cursor: pointer;
+}
+
+.login-paragraph {
+  margin: 0;
+  margin-top: 0.5rem;
+  font-family: $red-hat-fonts;
+  font-size: 0.8rem;
+  font-weight: 600;
+  color: rgba($color: #707070, $alpha: 0.8);
+}
+
+.logout-modal {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: fixed;
+  right: 0;
+  left: 0;
+  top: 0;
+  bottom: 0;
+  z-index: 1600;
+  box-sizing: border-box;
+
+  .logout-modal-container {
+    background: white;
+    padding: 1.5rem;
+    border-radius: 1rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    max-width: 22rem;
+    width: 100%;
+    z-index: 1600;
+
+    h2 {
+      font-family: $spartan-fonts;
+      width: 100%;
+      font-weight: 600;
+      font-size: 1.5rem;
+      text-align: left;
+      margin: 0;
+      margin: 0;
+    }
+
+    p {
+      font-family: $red-hat-fonts;
+      font-size: 0.9rem;
+      text-align: left;
+      color: #3c3c3c;
+      width: 100%;
+      margin: 0;
+      margin-top: 1rem;
+      margin-bottom: 1.5rem;
+    }
+
+    .logout-buttons {
+      width: 100%;
+      display: flex;
+      flex-direction: row;
+      gap: 1rem;
+      align-items: right;
+      justify-content: right;
+
+      button {
+        padding: 0.5rem 1rem;
+        border-radius: 0.3rem;
+        font-family: $red-hat-fonts;
+        font-size: 0.9rem;
+        font-weight: 600;
+        cursor: pointer;
+        transition: background 0.2s ease;
+        border: none;
+
+        &:hover {
+          background: rgba($color: #000000, $alpha: 0.1);
+          transition: background 0.2s ease;
+        }
+      }
+
+      .logout {
+        background: $accent-color;
+        color: white;
+      }
+
+      .cancel {
+        background: white;
+        color: #3c3c3c;
+      }
+    }
+  }
+}
+
+.centered {
+  // position: fixed;
+  // left: 50%;
+  top: 50%;
+  transform: translate(0, -50%);
+}
+
+.logout-backdrop {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: rgba(0, 0, 0, 0.6);
+}

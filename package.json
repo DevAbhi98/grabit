@@ -1,0 +1,46 @@
+{
+  "name": "grabit",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "watch": "sass --watch src/styles/index.scss:src/styles/index.css",
+    "dev": "vite --host 192.168.1.5 --port 3001",
+    "build": "vite build",
+    "lint": "eslint . --ext js,jsx --report-unused-disable-directives --max-warnings 0",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "@emotion/react": "^11.11.3",
+    "@emotion/styled": "^11.11.0",
+    "@mui/joy": "^5.0.0-beta.25",
+    "@mui/material": "^5.15.7",
+    "@reduxjs/toolkit": "^2.0.1",
+    "@tanstack/react-query": "^5.18.1",
+    "firebase": "^10.8.0",
+    "gsap": "^3.12.5",
+    "lodash": "^4.17.21",
+    "next": "^14.1.0",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "react-lottie": "^1.2.4",
+    "react-redux": "^9.1.0",
+    "react-router-dom": "^6.21.2",
+    "react-scroll-listener": "^0.8.0",
+    "react-shimmer": "^3.2.0",
+    "react-shimmer-effects": "^1.0.3",
+    "redux": "^5.0.1",
+    "sass": "^1.70.0"
+  },
+  "devDependencies": {
+    "@types/react": "^18.2.43",
+    "@types/react-dom": "^18.2.17",
+    "@vitejs/plugin-react-swc": "^3.5.0",
+    "eslint": "^8.55.0",
+    "eslint-plugin-react": "^7.33.2",
+    "eslint-plugin-react-hooks": "^4.6.0",
+    "eslint-plugin-react-refresh": "^0.4.5",
+    "tailwindcss": "^3.4.1",
+    "vite": "^5.0.8"
+  }
+}
